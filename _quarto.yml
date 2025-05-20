@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: Darcman0.github.io
+  output-dir: docs
 
 website:
   title: "site_personnelle"
