@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: Darcman0.github.io
+
+website:
+  title: "site_personnelle"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: cerulean
+    css: styles.css
+    toc: true
+
+
+
