@@ -3,13 +3,21 @@ project:
   output-dir: docs
 
 website:
+  
+  favicon: img/logo.png
   title: "site_personnelle"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-  
+  page-footer:
+    left: "© 2023 - site_personnelle"
+    right: 
+      - icon: github
+        href: https://github.com/Darcman0
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/abdou-aziz-darc-/
 
 format:
   html:
